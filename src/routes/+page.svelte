@@ -35,7 +35,6 @@
 
     destination = "(" + destination + ")";
 
-
     if (embed.enabled) {
       destination += ` [_ \ufe0e _](${
         location.href +
@@ -57,7 +56,7 @@
 
 <svelte:head>
   <title>Discord URL Spoofer</title>
-  <meta name="description" content=":thinking:">
+  <meta name="description" content=":thinking:" />
   <meta name="theme-color" content="#ffff0f" />
 </svelte:head>
 
@@ -105,3 +104,16 @@
 <Margin />
 
 <Input label="URL" placeholder={$_("text.clickToCopy")} bind:value={url} clickToCopy />
+
+<Margin />
+
+<div class="wrapper">
+  <a href="https://github.com/yuimarudev/discordlinkspoofer">GitHub</a>
+</div>
+
+<style>
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+</style>
