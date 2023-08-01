@@ -34,8 +34,10 @@
       destination = "<" + destination + ">";
     }
 
+    destination = "(" + destination + ")";
+
     if (embed.enabled) {
-      destination += `[_ \ufe0e _]${
+      destination += ` [_ \ufe0e _](${
         location.href +
         "embed?" +
         new URLSearchParams({
@@ -46,10 +48,9 @@
           s: embed.siteName,
           c: embed.color
         }).toString()
-      }`;
+      })`;
     }
 
-    destination = "(" + destination + ")";
     url = src && dst ? source + destination : "";
   }
 
