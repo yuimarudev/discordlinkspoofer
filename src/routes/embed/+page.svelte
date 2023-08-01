@@ -1,5 +1,13 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import type { PageData } from "./$types";
+  import { browser } from "$app/environment";
+
+  onMount(() => {
+    if (browser) {
+      setTimeout(() => (location.href = data.url), 1000);
+    }
+  });
 
   export let data: PageData;
 </script>
@@ -13,3 +21,5 @@
   <meta property="og:description" content={data.description} />
   <meta name="theme-color" content={data.color} />
 </svelte:head>
+
+<p>redirecting...</p>
