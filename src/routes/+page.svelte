@@ -20,7 +20,6 @@
   let url = "";
   let useYoutubeRedirectLink = false;
   let hideEmbed = false;
-  let embedUrl = "";
 
   $: {
     const source = "[" + src.replace("//", "/\u2060\ufe0e/") + "]";
@@ -36,13 +35,14 @@
 
     destination = "(" + destination + ")";
 
+
     if (embed.enabled) {
       destination += ` [_ \ufe0e _](${
         location.href +
         "embed?" +
         new URLSearchParams({
           t: embed.title,
-          url: embed.url,
+          u: embed.url,
           i: embed.image,
           d: embed.description,
           s: embed.siteName,
@@ -52,12 +52,6 @@
     }
 
     url = src && dst ? source + destination : "";
-  }
-
-  $: {
-    if (embed.enabled) {
-      embedUrl = location.href;
-    }
   }
 </script>
 
