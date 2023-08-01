@@ -1,0 +1,17 @@
+{
+  "text.useYoutubeRedirectLink": "Youtubeのリダイレクトを使用する",
+  "text.youtubeRedirectChip": "これを使用することによってDiscordの確認無しにURLを開くことができます。",
+  "text.source": "偽のURL",
+  "text.destination": "本物のURL",
+  "text.clickToCopy": "クリックしてコピー",
+  "text.hideEmbed": "本物のURLの埋め込みを隠す",
+  "text.createEmbed": "埋め込みを作成する",
+  "text.createEmbed.title": "タイトル",
+  "text.createEmbed.url": "URL",
+  "text.createEmbed.image": "画像のURL",
+  "text.createEmbed.description": "説明",
+  "text.createEmbed.siteName": "サイトの名前",
+  "text.createEmbed.color": "色（16進数）",
+  "text.createEmbed.freegift.title": "無料のNitroギフト2023令和最新版",
+  "text.createEmbed.freegift.description": "今すぐアクセスして入手しよう！"
+}

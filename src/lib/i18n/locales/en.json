@@ -1,0 +1,17 @@
+{
+  "text.useYoutubeRedirectLink": "Use Youtube redirect link",
+  "text.youtubeRedirectChip": "This allows the URL to be opened without Discord confirmation.",
+  "text.source": "Fake URL",
+  "text.destination": "Real URL",
+  "text.clickToCopy": "Click to copy",
+  "text.hideEmbed": "Hide embed of real URL",
+  "text.createEmbed": "埋め込みを作成する",
+  "text.createEmbed.title": "Title",
+  "text.createEmbed.url": "URL",
+  "text.createEmbed.image": "Image URL",
+  "text.createEmbed.description": "Site Description",
+  "text.createEmbed.siteName": "Site name",
+  "text.createEmbed.color": "Color (hexadecimal)",
+  "text.createEmbed.freegift.title": "Free Nitro 2023",
+  "text.createEmbed.freegift.description": "Access it and get it now!"
+}
