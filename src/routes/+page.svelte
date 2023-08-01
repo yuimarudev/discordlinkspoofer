@@ -55,6 +55,12 @@
   }
 </script>
 
+<svelte:head>
+  <title>Discord URL Spoofer</title>
+  <meta name="description" content=":thinking:">
+  <meta name="theme-color" content="#ffff0f" />
+</svelte:head>
+
 <h1>Discord Link Spoofer</h1>
 
 <Input label={$_("text.source")} placeholder="https://discord.gift/..." bind:value={src} />
