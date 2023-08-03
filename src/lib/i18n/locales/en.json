@@ -1,6 +1,6 @@
 {
-  "text.useYoutubeRedirectLink": "Use Youtube redirect link",
-  "text.youtubeRedirectChip": "This allows the URL to be opened without Discord confirmation.",
+  "text.useInstagramRedirectLink": "Use Instagram redirect link",
+  "text.instagramRedirectChip": "This allows the URL to be opened without Discord confirmation.",
   "text.source": "Fake URL",
   "text.destination": "Real URL",
   "text.clickToCopy": "Click to copy",

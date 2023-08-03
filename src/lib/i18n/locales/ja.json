@@ -1,6 +1,6 @@
 {
-  "text.useYoutubeRedirectLink": "Youtubeのリダイレクトを使用する",
-  "text.youtubeRedirectChip": "これを使用することによってDiscordの確認無しにURLを開くことができます。",
+  "text.useInstagramRedirectLink": "Instagramのリダイレクトを使用する",
+  "text.instagramRedirectChip": "これを使用することによってDiscordの確認無しにURLを開くことができます。",
   "text.source": "偽のURL",
   "text.destination": "本物のURL",
   "text.clickToCopy": "クリックしてコピー",

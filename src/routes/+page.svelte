@@ -5,7 +5,7 @@
   import Margin from "$lib/Margin.svelte";
   import { _ } from "svelte-i18n";
 
-  const redirectBase = "https://www.youtube.com/redirect?event=&redir_token=&q=";
+  const redirectBase = "https://l.instagram.com/?e=AT0_Wykr7_1_2JC5Cc-zUv641O4AxU-4ET5-SEiw5xchVDpL_HX2UFVcoqFmbf_wTPa9_ZxROJO-VVuksA39lukuXdkYgUOafhDWrEY&u=";
   const embed = {
     enabled: false,
     title: "",
@@ -18,14 +18,14 @@
   let src = "";
   let dst = "";
   let url = "";
-  let useYoutubeRedirectLink = false;
+  let useInstagramRedirectLink = false;
   let hideEmbed = false;
 
   $: {
     const source = "[" + src.replace("//", "/\u2060\ufe0e/") + "]";
     let destination = dst;
 
-    if (useYoutubeRedirectLink) {
+    if (useInstagramRedirectLink) {
       destination = redirectBase + encodeURIComponent(destination);
     }
 
@@ -66,8 +66,8 @@
 
 <Input label={$_("text.destination")} placeholder="https://..." bind:value={dst} />
 
-<HoverCip chipText={$_("text.youtubeRedirectChip")}>
-  <CheckBox label={$_("text.useYoutubeRedirectLink")} bind:checked={useYoutubeRedirectLink} />
+<HoverCip chipText={$_("text.instagramRedirectChip")}>
+  <CheckBox label={$_("text.useInstagramRedirectLink")} bind:checked={useInstagramRedirectLink} />
 </HoverCip>
 <CheckBox label={$_("text.hideEmbed")} bind:checked={hideEmbed} />
 <CheckBox label={$_("text.createEmbed")} bind:checked={embed.enabled} />
