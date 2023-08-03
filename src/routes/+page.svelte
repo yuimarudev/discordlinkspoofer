@@ -36,7 +36,7 @@
     destination = "(" + destination + ")";
 
     if (embed.enabled) {
-      destination += ` [_ \ufe0e _](${
+      destination += `[\ufe0e](${
         location.href +
         "embed?" +
         new URLSearchParams({
